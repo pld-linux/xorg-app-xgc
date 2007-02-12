@@ -1,5 +1,5 @@
 Summary:	xgc application
-Summary(pl):	Aplikacja xgc
+Summary(pl.UTF-8):   Aplikacja xgc
 Name:		xorg-app-xgc
 Version:	1.0.1
 Release:	1
@@ -20,7 +20,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 xgc application.
 
-%description -l pl
+%description -l pl.UTF-8
 Aplikacja xgc.
 
 %prep
