@@ -2,7 +2,7 @@ Summary:	xgc application
 Summary(pl.UTF-8):	Aplikacja xgc
 Name:		xorg-app-xgc
 Version:	1.0.1
-Release:	1
+Release:	2
 License:	MIT
 Group:		X11/Development/Libraries
 Source0:	http://xorg.freedesktop.org/releases/individual/app/xgc-%{version}.tar.bz2
