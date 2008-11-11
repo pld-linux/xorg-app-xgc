@@ -2,11 +2,12 @@ Summary:	xgc application
 Summary(pl.UTF-8):	Aplikacja xgc
 Name:		xorg-app-xgc
 Version:	1.0.1
-Release:	3
+Release:	4
 License:	MIT
 Group:		X11/Development/Libraries
 Source0:	http://xorg.freedesktop.org/releases/individual/app/xgc-%{version}.tar.bz2
 # Source0-md5:	72fc8dd68f585000c0a542eba0264571
+Patch0:		%{name}-xaw.patch
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.57
 BuildRequires:	automake
@@ -25,6 +26,7 @@ Aplikacja xgc.
 
 %prep
 %setup -q -n xgc-%{version}
+%patch0 -p1
 
 %build
 %{__aclocal}
