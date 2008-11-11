@@ -1,0 +1,19 @@
+commit f964031d5f702ad17c76f7e7b1ab91efd56e0f01
+Author: James Cloos <cloos@jhcloos.com>
+Date:   Wed Aug 20 10:32:51 2008 -0400
+
+    xaw8 is gone, use xaw7
+
+diff --git a/configure.ac b/configure.ac
+index 40f728a..b51bdb7 100644
+--- a/configure.ac
++++ b/configure.ac
+@@ -33,7 +33,7 @@ AC_PROG_YACC
+ AC_PROG_CC
+ AC_PROG_INSTALL
+ 
+-XAW_CHECK_XPRINT_SUPPORT(XGC)
++PKG_CHECK_MODULES(XGC, xaw7)
+ 
+ AC_SUBST(XGC_CFLAGS)
+ AC_SUBST(XGC_LIBS)
