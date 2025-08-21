@@ -1,14 +1,14 @@
 Summary:	xgc application - X graphics demo
 Summary(pl.UTF-8):	Aplikacja xgc - program demonstracyjny grafiki X
 Name:		xorg-app-xgc
-Version:	1.0.6
+Version:	1.0.7
 Release:	1
 License:	MIT
 Group:		X11/Development/Libraries
 Source0:	https://xorg.freedesktop.org/releases/individual/app/xgc-%{version}.tar.xz
-# Source0-md5:	3eeda5eb416e6d69b495c11291c8502d
+# Source0-md5:	38ef78ee597a9e7fb41affd047997842
 URL:		https://xorg.freedesktop.org/
-BuildRequires:	autoconf >= 2.60
+BuildRequires:	autoconf >= 2.64
 BuildRequires:	automake
 BuildRequires:	pkgconfig >= 1:0.19
 BuildRequires:	tar >= 1:1.22
